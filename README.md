@@ -208,7 +208,7 @@
 
         <div class="hero-cta">
           <!-- Замените href на вашу реальную ссылку .exe -->
-          <a class="btn btn-primary" id="download-btn" href="https://novacleaner.shop/download.php?file=NovaCleanerPro_Setup.exe" download aria-label="Скачать NovaCleaner .exe">⬇ Скачать .exe — Запустить установщик</a>
+          <a class="btn btn-primary" id="download-btn" href="https://github.com/spitak2/NovaCleanerPro/releases/download/v1.0.0/NovaCleanerPro_Setup.exe" download aria-label="Скачать NovaCleaner .exe">⬇ Скачать .exe — Запустить установщик</a>
           <a class="btn btn-ghost" href="#how">Как установить</a>
         </div>
 
