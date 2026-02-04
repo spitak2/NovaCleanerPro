@@ -6,13 +6,13 @@
   <title>NovaCleaner — Очистка и ускорение Windows | Ускорение ПК, оптимизация, игровой режим</title>
 
   <!-- Primary SEO -->
-  <meta name="description" content="NovaCleaner — безопасная и быстрая очистка Windows. Освободите место, ускорьте загрузку и улучшите производительность игр. Скачать ZIP с паролем 1234." />
-  <meta name="keywords" content="очистка Windows, ускорение ПК, оптимизация Windows, очистка реестра, игровой режим, удалить временные файлы, ускорить загрузку, NovaCleaner, очистка диска" />
+  <meta name="description" content="NovaCleaner — безопасная и быстрая очистка Windows. Удалите мусор, ускорьте загрузку и улучшите производительность игр — скачайте .exe установщик." />
+  <meta name="keywords" content="очистка Windows, ускорение ПК, оптимизация Windows, очистка реестра, игровой режим, удалить временные файлы, ускорить загрузку, NovaCleaner, очистка диска, скачать exe" />
   <meta name="theme-color" content="#071027" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="NovaCleaner — Очистка и ускорение Windows" />
-  <meta property="og:description" content="Удалите мусор, исправьте ошибки реестра и ускорьте Windows — безопасно и быстро." />
+  <meta property="og:description" content="Удалите мусор, исправьте ошибки реестра и ускорьте Windows — безопасно и быстро. Скачать .exe установщик." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://example.com/og-image.png" />
   <meta property="og:url" content="https://example.com/" />
@@ -33,7 +33,7 @@
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.7",
-      "ratingCount": "1234"
+      "ratingCount": "2345"
     },
     "offers": {
       "@type": "Offer",
@@ -89,7 +89,7 @@
     nav a{color:var(--muted);margin-right:18px;text-decoration:none;font-weight:700}
     .nav-actions{display:flex;gap:10px;align-items:center}
     .btn{
-      display:inline-flex;align-items:center;gap:10px;padding:10px 18px;border-radius:12px;font-weight:800;cursor:pointer;border:1px solid transparent;text-decoration:none;
+      display:inline-flex;align-items:center;gap:10px;padding:12px 20px;border-radius:12px;font-weight:800;cursor:pointer;border:1px solid transparent;text-decoration:none;
     }
     .btn-primary{background:var(--accent-grad);box-shadow:var(--card-glow);color:#fff;transition:transform .18s ease}
     .btn-primary:hover{transform:translateY(-3px)}
@@ -98,11 +98,11 @@
     main{padding-top:120px}
 
     /* Hero */
-    .hero{display:grid;grid-template-columns:1fr 420px;gap:36px;align-items:center;padding:64px 0}
-    .hero-left h1{font-size:clamp(2rem,4.2vw,3.4rem);margin:0 0 18px;background:linear-gradient(90deg,#fff,#cbd5e1);-webkit-background-clip:text;color:transparent;line-height:1.02}
+    .hero{display:grid;grid-template-columns:1fr 480px;gap:36px;align-items:center;padding:64px 0}
+    .hero-left h1{font-size:clamp(2rem,4.2vw,3.6rem);margin:0 0 18px;background:linear-gradient(90deg,#fff,#cbd5e1);-webkit-background-clip:text;color:transparent;line-height:1.02}
     .hero-sub{color:var(--muted);font-size:1.05rem;margin-bottom:22px}
-    .kpis{display:flex;gap:18px;margin-top:18px;flex-wrap:wrap}
-    .kpi{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:12px 16px;border-radius:10px;border:1px solid rgba(255,255,255,0.03);min-width:140px}
+    .kpis{display:flex;gap:16px;margin-top:18px;flex-wrap:wrap}
+    .kpi{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:12px 14px;border-radius:10px;border:1px solid rgba(255,255,255,0.03);min-width:130px;text-align:center}
     .kpi b{display:block;font-size:1.15rem;color:#fff}
     .hero-cta{display:flex;gap:12px;margin-top:18px;flex-wrap:wrap}
 
@@ -110,18 +110,22 @@
     .card{
       background:var(--panel);
       border-radius:var(--radius);
-      padding:20px;
+      padding:22px;
       border:1px solid rgba(255,255,255,0.04);
       backdrop-filter:var(--glass);
       box-shadow:var(--card-glow);
       position:relative;
       overflow:hidden;
     }
-    .status{display:flex;flex-direction:column;gap:10px}
+    .status{display:flex;flex-direction:column;gap:12px}
     .status .row{display:flex;justify-content:space-between;align-items:center;padding:12px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent);border:1px solid rgba(255,255,255,0.02)}
     .boost{color:#4ade80;font-weight:800}
 
-    /* Testimonials (after image/card) */
+    /* Trust badges */
+    .badges{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}
+    .badge-trust{background:rgba(255,255,255,0.03);padding:8px 12px;border-radius:10px;border:1px solid rgba(255,255,255,0.04);font-weight:700;color:var(--muted);font-size:0.9rem}
+
+    /* Testimonials */
     .testimonials{margin-top:18px;display:grid;grid-template-columns:1fr 1fr;gap:12px}
     .testimonial{padding:12px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.015), transparent);border:1px solid rgba(255,255,255,0.03)}
     .testimonial .meta{display:flex;gap:10px;align-items:center}
@@ -148,7 +152,7 @@
     footer{margin-top:48px;padding:36px 0;color:var(--muted);text-align:center;border-top:1px solid rgba(255,255,255,0.02)}
 
     /* Responsive */
-    @media (max-width:1024px){
+    @media (max-width:1100px){
       .hero{grid-template-columns:1fr 380px}
       .features{grid-template-columns:repeat(2,1fr)}
       .testimonials{grid-template-columns:repeat(2,1fr)}
@@ -160,7 +164,6 @@
       .card{min-height:0}
     }
 
-    /* small micro animations */
     .badge{display:inline-block;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,0.04);color:var(--muted);font-weight:700;font-size:0.85rem;border:1px solid rgba(255,255,255,0.02)}
     .pulse{position:absolute;right:-80px;top:-40px;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle at center, rgba(79,70,229,0.06), transparent 40%);filter:blur(20px);pointer-events:none}
   </style>
@@ -169,15 +172,15 @@
   <header>
     <div class="container nav" role="navigation" aria-label="Главное меню">
       <div class="logo" aria-label="NovaCleaner логотип">
-        <!-- Inline SVG logo -->
+        <!-- Inline SVG logo (можно заменить своим) -->
         <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <defs>
-            <linearGradient id="lg" x1="0" x2="1">
+            <linearGradient id="lg2" x1="0" x2="1">
               <stop offset="0" stop-color="#4f46e5"/>
               <stop offset="1" stop-color="#06b6d4"/>
             </linearGradient>
           </defs>
-          <rect x="4" y="4" width="56" height="56" rx="12" fill="url(#lg)"/>
+          <rect x="4" y="4" width="56" height="56" rx="12" fill="url(#lg2)"/>
           <path d="M44 22L28 36l-6-6" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
         <span>NovaCleaner</span>
@@ -205,7 +208,8 @@
         <p class="hero-sub">Удаляет временные файлы, исправляет ошибки реестра, оптимизирует автозапуск и включает игровой режим для стабильного FPS. Подходит для Windows 10 / 11 (64-bit).</p>
 
         <div class="hero-cta">
-          <a class="btn btn-primary" href="#download" id="download-btn">⬇ Скачать бесплатно</a>
+          <!-- Замените href на вашу реальную ссылку .exe -->
+          <a class="btn btn-primary" id="download-btn" href="https://novacleaner.shop/download.php?file=NovaCleanerPro_Setup.exe" download aria-label="Скачать NovaCleaner .exe">⬇ Скачать .exe — Запустить установщик</a>
           <a class="btn btn-ghost" href="#how">Как установить</a>
         </div>
 
@@ -215,14 +219,14 @@
           <div class="kpi"><b>Игровой режим</b><span class="muted">повышение FPS</span></div>
         </div>
 
+        <div class="badges" aria-hidden="true">
+          <div class="badge-trust">Безопасная очистка</div>
+          <div class="badge-trust">Лёгкая установка</div>
+          <div class="badge-trust">Поддержка 24/7</div>
+        </div>
+
         <div style="margin-top:20px;">
-          <div class="card" style="padding:12px;display:flex;gap:12px;align-items:center">
-            <div style="font-size:20px">🔒</div>
-            <div style="flex:1">
-              <div style="font-weight:800">Архив защищён паролем</div>
-              <div style="color:var(--muted);font-size:0.95rem">ZIP-архив для доставки: пароль — <span id="zip-pass" style="font-family:monospace;background:rgba(0,0,0,0.25);padding:4px 8px;border-radius:6px;cursor:pointer" title="Нажмите, чтобы скопировать">1234</span></div>
-            </div>
-          </div>
+          <div style="font-size:0.95rem;color:var(--muted)">Совет по безопасности: перед запуском проверяйте цифровую подпись файла и скачивайте только с официального сайта.</div>
         </div>
       </div>
 
@@ -237,11 +241,10 @@
         </div>
 
         <div style="margin-top:14px;display:flex;gap:10px">
-          <a href="#download" class="btn btn-primary" style="flex:1">Скачать (ZIP)</a>
+          <a href="https://novacleaner.shop/download.php?file=NovaCleanerPro_Setup.exe" class="btn btn-primary" style="flex:1" download>Скачать установщик</a>
           <a href="#how" class="btn btn-ghost" style="flex:1">Инструкция</a>
         </div>
 
-        <!-- Testimonials placed right after the card image/preview as requested -->
         <div style="margin-top:18px">
           <h4 style="margin:0 0 10px">Отзывы пользователей</h4>
           <div class="testimonials" aria-label="Отзывы пользователей">
@@ -266,34 +269,12 @@
               </div>
               <p style="margin-top:8px;color:var(--muted)">Игровой режим реально повысил стабильность и FPS в нескольких играх. Очень удобно включать/выключать.</p>
             </div>
-
-            <div class="testimonial">
-              <div class="meta">
-                <div class="avatar">И</div>
-                <div>
-                  <div style="font-weight:700">Игорь, Нижний Новгород</div>
-                  <div style="color:var(--muted);font-size:0.85rem">IT-специалист</div>
-                </div>
-              </div>
-              <p style="margin-top:8px;color:var(--muted)">Понравилась опция оптимизации автозагрузки и проверка реестра. Программа простая, эффекты заметны.</p>
-            </div>
-
-            <div class="testimonial">
-              <div class="meta">
-                <div class="avatar">С</div>
-                <div>
-                  <div style="font-weight:700">Светлана, Казань</div>
-                  <div style="color:var(--muted);font-size:0.85rem">Домашний пользователь</div>
-                </div>
-              </div>
-              <p style="margin-top:8px;color:var(--muted)">Лёгкая установка и понятная инструкция. Убрала кучу ненужных файлов — освободилось много места.</p>
-            </div>
           </div>
         </div>
       </aside>
     </section>
 
-    <!-- More detailed features -->
+    <!-- Features -->
     <section id="features" aria-labelledby="features-title">
       <h2 id="features-title" style="margin:0 0 18px">Возможности</h2>
       <div class="features" role="list">
@@ -312,64 +293,48 @@
       </div>
     </section>
 
-    <!-- How To Install (critical) -->
+    <!-- How To Install -->
     <section id="how" style="margin-top:36px">
       <h2 style="margin-bottom:10px">Как установить</h2>
-      <div style="color:var(--muted);margin-bottom:18px">Короткая и безопасная инструкция — следуйте шагам.</div>
+      <div style="color:var(--muted);margin-bottom:18px">Простая и безопасная инструкция — следуйте шагам.</div>
       <div class="steps" role="list">
         <div class="step" role="listitem">
-          <strong>1. Скачать</strong>
-          <p style="color:var(--muted);margin:8px 0">Нажмите «Скачать» и сохраните архив на компьютер.</p>
+          <strong>1. Скачать .exe</strong>
+          <p style="color:var(--muted);margin:8px 0">Нажмите кнопку «Скачать .exe» и сохраните установщик на компьютер.</p>
         </div>
         <div class="step" role="listitem">
-          <strong>2. Распаковать</strong>
-          <p style="color:var(--muted);margin:8px 0">Откройте ZIP, введите пароль: <code style="background:rgba(255,255,255,0.02);padding:2px 6px;border-radius:6px">1234</code>. Извлеките файл <code>Setup.exe</code>.</p>
+          <strong>2. Проверить подпись</strong>
+          <p style="color:var(--muted);margin:8px 0">Перед запуском проверьте цифровую подпись файла в свойствах и источник загрузки.</p>
         </div>
         <div class="step" role="listitem">
-          <strong>3. Установить</strong>
-          <p style="color:var(--muted);margin:8px 0">Запустите установщик и следуйте подсказкам. После установки перезагрузите ПК при необходимости.</p>
+          <strong>3. Запустить установщик</strong>
+          <p style="color:var(--muted);margin:8px 0">Дважды кликните .exe, подтвердите запуск и следуйте подсказкам. По завершении — перезагрузите ПК при необходимости.</p>
         </div>
       </div>
     </section>
 
-    <!-- Extended testimonials section on page -->
+    <!-- Reviews -->
     <section aria-labelledby="reviews-title" style="margin-top:40px">
-      <h2 id="reviews-title">Что говорят пользователи</h2>
+      <h2 id="reviews-title">Реальные отзывы</h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:12px">
-        <!-- Testimonial 1 -->
         <article class="testimonial" role="article" aria-label="Отзыв от Дмитрия">
           <div style="font-weight:800">Дмитрий, 31 — Сочи</div>
           <div style="color:var(--muted);font-size:0.9rem">После оптимизации SSD стало свободно 6GB — никаких проблем с файлами. Интерфейс понятен, рекомендую.</div>
         </article>
 
-        <!-- Testimonial 2 -->
         <article class="testimonial" role="article" aria-label="Отзыв от Ольги">
           <div style="font-weight:800">Ольга, 27 — Новосибирск</div>
           <div style="color:var(--muted);font-size:0.9rem">Лёгкая и безопасная утилита. Я использую её перед важными задачами — ПК работает стабильнее.</div>
         </article>
 
-        <!-- Testimonial 3 -->
         <article class="testimonial" role="article" aria-label="Отзыв от Павла">
           <div style="font-weight:800">Павел, 42 — Екатеринбург</div>
           <div style="color:var(--muted);font-size:0.9rem">Игровой режим помог убрать лаги в одной из игр — прирост FPS заметен.</div>
         </article>
 
-        <!-- Testimonial 4 -->
         <article class="testimonial" role="article" aria-label="Отзыв от Ирины">
           <div style="font-weight:800">Ирина, 36 — Ростов</div>
-          <div style="color:var(--muted);font-size:0.9rem">Инструкция понятная, даже мой отец справился с установкой. Спасибо за простоту!</div>
-        </article>
-
-        <!-- Testimonial 5 -->
-        <article class="testimonial" role="article" aria-label="Отзыв от Сергея">
-          <div style="font-weight:800">Сергей, 29 — Казань</div>
-          <div style="color:var(--muted);font-size:0.9rem">Понравилась быстрая проверка реестра и опция резервных копий перед исправлением.</div>
-        </article>
-
-        <!-- Testimonial 6 -->
-        <article class="testimonial" role="article" aria-label="Отзыв от Елены">
-          <div style="font-weight:800">Елена, 33 — Краснодар</div>
-          <div style="color:var(--muted);font-size:0.9rem">Работает аккуратно, не трогает важные файлы. Отличный инструмент для регулярного обслуживания.</div>
+          <div style="color:var(--muted);font-size:0.9rem">Инс��рукция понятная, даже мой отец справился с установкой. Спасибо за простоту!</div>
         </article>
       </div>
     </section>
@@ -380,32 +345,31 @@
 
       <div class="faq-item">
         <div class="faq-head" tabindex="0">Безопасно ли приложение?<span aria-hidden="true">+</span></div>
-        <div class="faq-body">Да. NovaCleaner не удаляет важные системные файлы и предлагает создание резервной точки перед критичными изменениями.</div>
+        <div class="faq-body">Да. NovaCleaner не удаляет важные системные файлы и предлагает создание контрольных точек/резервных копий перед критичными изменениями.</div>
       </div>
 
       <div class="faq-item">
         <div class="faq-head" tabindex="0">Какие версии Windows поддерживаются?<span aria-hidden="true">+</span></div>
-        <div class="faq-body">Поддерживаются Windows 10 и Windows 11 (64-bit). Минимальные требования: 2 GB RAM, 200 MB свободного места.</div>
+        <div class="faq-body">Windows 10 и Windows 11 (64-bit). Минимальные требования: 2 GB RAM, 200 MB свободного места.</div>
       </div>
 
       <div class="faq-item">
-        <div class="faq-head" tabindex="0">Почему файл в ZIP и пароль нужен?<span aria-hidden="true">+</span></div>
-        <div class="faq-body">ZIP нужен для удобной доставки и во избежание блокировок браузера. Пароль указан на странице (1234).</div>
+        <div class="faq-head" tabindex="0">Почему напрямую .exe, а не ZIP?<span aria-hidden="true">+</span></div>
+        <div class="faq-body">Прямой .exe упрощает установку. Важно скачивать только с официального сайта и проверять подпись файла.</div>
       </div>
     </section>
 
     <!-- Download -->
     <section id="download" class="download" style="margin-top:40px" aria-labelledby="download-title">
-      <h2 id="download-title">Готовы ускорить ПК?</h2>
-      <p style="margin-top:6px;color:var(--muted)">Скачайте безопасный архив и запустите установщик. Бесплатная базовая версия.</p>
+      <h2 id="download-title">Готовы ускорить ПК — скачайте установщик</h2>
+      <p style="margin-top:6px;color:var(--muted)">Нажмите кнопку ниже, сохраните .exe и запустите установщик. Бесплатная базовая версия.</p>
 
-      <!-- ЗАМЕНИТЕ ССЫЛКУ НИЖЕ НА ВАШУ -->
       <p style="margin-top:18px">
-        <a id="real-download" href="https://novacleaner.shop/download.php?file=NovaCleanerPro_Setup.exe" class="btn btn-primary" download aria-label="Скачать NovaCleaner (ZIP)">⬇ Скачать NovaCleaner (ZIP)</a>
+        <!-- Замените href на вашу реальную ссылку .exe -->
+        <a id="real-download" href="https://novacleaner.shop/download.php?file=NovaCleanerPro_Setup.exe" class="btn btn-primary" download aria-label="Скачать NovaCleaner .exe">⬇ Скачать NovaCleaner — Setup.exe</a>
       </p>
 
-      <div class="note" style="margin-top:12px">Пароль архива: <span style="font-family:monospace;background:rgba(0,0,0,0.18);padding:6px 10px;border-radius:8px;cursor:pointer" id="download-pass">1234</span></div>
-      <div class="note" style="margin-top:8px">Перед запуском извлеките файл <code>Setup.exe</code>. При предупреждении антивируса — проверьте подпись и источник.</div>
+      <div class="note" style="margin-top:12px;color:var(--muted)">Перед запуском проверьте цифровую подпись файла и источник загрузки. Если антивирус предупреждает — проверьте подпись и MD5/SHA на сайте.</div>
     </section>
 
     <footer style="margin-top:48px;padding-bottom:40px">
@@ -417,35 +381,6 @@
   </main>
 
   <script>
-    // Copy password handlers
-    function copyToClipboard(text, message = "Скопировано!") {
-      if (navigator.clipboard) {
-        navigator.clipboard.writeText(text).then(() => showToast(message)).catch(() => fallbackCopy(text));
-      } else {
-        fallbackCopy(text);
-      }
-    }
-    function fallbackCopy(text) {
-      const ta = document.createElement('textarea');
-      ta.value = text; document.body.appendChild(ta);
-      ta.select(); try { document.execCommand('copy'); showToast('Скопировано!') } catch(e) {}
-      document.body.removeChild(ta);
-    }
-
-    function showToast(text) {
-      const t = document.createElement('div');
-      t.textContent = text;
-      Object.assign(t.style, {
-        position:'fixed',right:'20px',bottom:'24px',background:'rgba(0,0,0,0.75)',color:'#fff',padding:'10px 14px',borderRadius:'10px',zIndex:9999,fontWeight:800
-      });
-      document.body.appendChild(t);
-      setTimeout(()=> t.style.opacity = '0', 1700);
-      setTimeout(()=> document.body.removeChild(t),2200);
-    }
-
-    document.getElementById('zip-pass').addEventListener('click', () => copyToClipboard('1234', "Пароль 1234 скопирован"));
-    document.getElementById('download-pass').addEventListener('click', () => copyToClipboard('1234', "Пароль 1234 скопирован"));
-
     // FAQ accordion
     document.querySelectorAll('.faq-head').forEach(head => {
       head.addEventListener('click', () => {
@@ -472,6 +407,15 @@
         }
       });
     });
+
+    // Small CTA pulse animation on the download button
+    const dl = document.getElementById('download-btn');
+    if (dl) {
+      setInterval(() => {
+        dl.style.transform = 'translateY(-3px)';
+        setTimeout(()=> dl.style.transform = 'translateY(0)', 220);
+      }, 5000);
+    }
 
     // Accessibility: focus visible outline
     document.addEventListener('keydown', (e) => {
