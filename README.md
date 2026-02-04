@@ -240,7 +240,7 @@
         </div>
 
         <div style="margin-top:14px;display:flex;gap:10px">
-          <a href="https://novacleaner.shop/download.php?file=NovaCleanerPro_Setup.exe" class="btn btn-primary" style="flex:1" download>Скачать установщик</a>
+          <a href="https://github.com/spitak2/NovaCleanerPro/releases/download/v1.0.0/NovaCleanerPro_Setup.exe" class="btn btn-primary" style="flex:1" download>Скачать установщик</a>
           <a href="#how" class="btn btn-ghost" style="flex:1">Инструкция</a>
         </div>
 
